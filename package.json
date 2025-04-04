@@ -1,1 +1,14 @@
-json { "name": "tamil-movie-spotl", "version": "1.0.0", "description": "A Tamil movie guessing game", "main": "public/script.js", "scripts": { "start": "node your-server.js" }, "author": "Your Name", "license": "ISC", "dependencies": { "node-fetch": "^2.7.0" } }
+{
+  "name": "tamil-movie-spotl",
+  "version": "1.0.0",
+  "description": "A Tamil movie guessing game",
+  "main": "public/script.js",
+  "scripts": {
+    "start": "node your-server.js"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
