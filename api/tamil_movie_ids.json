@@ -1,0 +1,18 @@
+// api/tamil_movie_ids.json
+[
+  5925,    // "Sivaji"
+  25864,   // "Enthiran"
+  238636,  // "Baahubali: The Beginning" (Tamil version exists)
+  350312,  // "Baahubali 2: The Conclusion" (Tamil version exists)
+  272720,  // "Theri"
+  348350,  // "Mersal"
+  450438,  // "Bigil"
+  589761,  // "Master"
+  673810,  // "Vikram"
+  786760,  // "Ponniyin Selvan: Part I"
+  812318,  // "Varisu"
+  798329,  // "Thunivu"
+  894337,  // "Jailer"
+  753342   // "Leo"
+  // Add many more TMDB IDs here! Find them on TMDB website.
+]

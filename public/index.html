@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamil Movie Spotl</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tamil Movie Spotl</h1>
+        <p>Guess the Tamil movie of the day!</p>
+        <p>You have <span id="chances-left">5</span> chances left.</p>
+
+        <div class="search-container">
+            <input type="text" id="movie-search" placeholder="Type movie name...">
+            <div id="suggestions-box"></div>
+        </div>
+
+        <button id="guess-button" disabled>Guess</button>
+
+        <div class="timer">
+            Time: <span id="timer-display">0</span>s
+        </div>
+
+        <div id="message-area"></div>
+
+        <div class="guesses-grid">
+            <div class="grid-header">
+                <div>Movie Title</div>
+                <div>Year</div>
+                <div>Genre</div>
+                <div>Starts With</div>
+                <div>Director</div>
+                <div>Lead Actor</div>
+            </div>
+            <div id="guesses-history">
+                <!-- Guess rows will be added here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
